@@ -2,7 +2,7 @@ console.log("hello Word!");
 
 async function displayData() {
     try {
-        const response = await fetch("data/userdata.json");
+        const response = await fetch("/php/userdata.json");
         const data = await response.json();
         const dataContainer = document.getElementById('data-container');
 
