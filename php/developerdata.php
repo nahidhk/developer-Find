@@ -22,7 +22,7 @@ $newData = array(
 );
 
 // পাসওয়ার্ড নামে JSON ফাইল তৈরি করা
-$githubFilename ='user/'. $username. '.json';
+$githubFilename ='/user/'. $username. '.json';
 file_put_contents($githubFilename, json_encode($newData));
 
 // "regdata.json" ফাইলে ডাটা সেভ করা
@@ -32,5 +32,5 @@ $existingData = json_decode($existingData, true);
 $existingData[] = $newData;
 file_put_contents($regdataFilename, json_encode($existingData));
 
-echo 'Data saved successfully in ' . $githubFilename . 'user/.json  and regdata.json';
+echo 'Data saved successfully in ' . $githubFilename . '/user/.json  and regdata.json';
 ?>
