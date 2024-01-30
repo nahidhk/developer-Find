@@ -1,40 +1,29 @@
 [
-    {
-        "student_name": "1",
-        "father_name": "2",
-        "mother_name": "3",
-        "nid_no": "4",
-        "birth_date": "2023-09-29",
-        "ovivok_name": "5",
-        "mobile": "6",
-        "email": "nahidhkdotcom@gmail.com",
-        "nationality": "\u09ac\u09be\u0982\u09b2\u09be\u09a6\u09c7\u09b6\u09c0",
-        "division": "\u09b0\u09be\u099c\u09b6\u09be\u09b9\u09c0",
-        "district": "\u09aa\u09be\u09ac\u09a8\u09be",
-        "upazila": "\u09b8\u09be\u09a5\u09bf\u09af\u09bc\u09be",
-        "thana": "\u0986\u09a4\u09be\u0987\u0995\u09c1\u09b2\u09be",
-        "gram": "2023-09-29",
-        "admission_date": "2023-09-29",
-        "eco1": "\u09a8\u09be\u099c\u09c7\u09b0\u09be \u09ac\u09bf\u09ad\u09be\u0997",
-        "pin": "5535"
-    },
-    {
-        "student_name": "544",
-        "father_name": "212",
-        "mother_name": "211",
-        "nid_no": "211",
-        "birth_date": "0021-02-12",
-        "ovivok_name": "21122112",
-        "mobile": "2112",
-        "email": "",
-        "nationality": "\u09ac\u09be\u0982\u09b2\u09be\u09a6\u09c7\u09b6\u09c0",
-        "division": "\u09b0\u09be\u099c\u09b6\u09be\u09b9\u09c0",
-        "district": "\u09aa\u09be\u09ac\u09a8\u09be",
-        "upazila": "\u0986\u099f\u0998\u09b0\u09bf\u09af\u09bc\u09be",
-        "thana": "\u0986\u09a4\u09be\u0987\u0995\u09c1\u09b2\u09be",
-        "gram": "0021-02-11",
-        "admission_date": "0021-02-11",
-        "eco1": "\u09b9\u09c7\u09ab\u099c \u09ac\u09bf\u09ad\u09be\u0997",
-        "pin": "12121"
-    }
+  {
+    "username":"whitepoet",
+   "name":"Nahidul Islam",
+   "address":"Dhaka, Bangladesh",
+   "skill": "Software engineer",
+   "about":"hellop oam App ",
+   "facebook":"1",
+   "linkedin":"3",
+   "x":"4",
+   "website":"5"
+  },
+  {
+    "username": "nahidhk",
+    "name": "Nahidul Islam",
+    "address": "Dhaka, Bangladesh",
+    "skill": "Software engineer",
+    "about": "hellop oam App ",
+    "facebook": "1",
+    "linkedin": "3",
+    "x": "4",
+    "website": "5"
+  }
+  
+  
+  
+  
+  
 ]

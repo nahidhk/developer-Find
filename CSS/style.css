@@ -1,0 +1,90 @@
+@font-face {
+  font-family: site-font;
+  src: url(/font/Quicksand-Medium.ttf);
+}
+
+body{
+  color: #EEEEEE;
+  margin: 0;
+  padding: 0;
+  background-color: #6C6C6C;
+font-family: site-font;
+}
+.box-profile{
+  box-shadow: rgba(0, 0, 0, 0.1) -4px 9px 25px -6px;
+  height: 290px;
+  width: 600px;
+  background-color: #2C2C2C;
+  border-radius: 10px;
+  margin: 10px;
+}
+.profile-img{
+  height: 80px;
+  width: 80px;
+  margin: 10px;
+  border-radius: 200px;
+  float: left;
+  
+}
+.title{
+  font-size: 24px;
+  color: white;
+  font-family: site-font;
+}
+.bi-geo-alt-fill{
+  font-size: 20px;
+}
+.skill{
+  background-color:#4680ff;
+  padding-left:10px;
+    padding-right:10px;
+    border-radius: 10px;
+
+}
+.about{
+  width: 95%;
+  height: 60px;
+box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px; 
+  overflow: scroll;
+  border-radius: 10px;
+}
+.social-box{
+  height: 38px;
+  width: 100%;
+  justify-content: space-evenly;
+  display: flex;
+ 
+}
+.icon{
+  display: flex;
+  color: #FFFFFF;
+  font-size: 26px;
+  background-color: #4680ff;
+padding: 5px; 
+height: 32px;
+border-radius: 6px;
+padding-left: 5px;
+background-image: linear-gradient(700deg,#FC18CC,#4680ff);
+}
+.abtn{
+  margin-top: 5px;
+ color: white;
+ text-decoration: none;
+ border: 1px solid #4680ff;
+ padding: 8px;
+ padding-left: 50px;
+  padding-right: 50px;
+border-radius: 5px;
+}
+/*====== css mobile design ========*/
+
+
+@media only screen and (max-width: 768px) {
+.box-profile{
+  width: 90%;
+  margin: 16px;
+} 
+ 
+ 
+  
+}
