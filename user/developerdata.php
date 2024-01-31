@@ -40,7 +40,8 @@ if(isset($_POST['username'], $_POST['name'], $_POST['address'], $_POST['skill'],
     $existingData[] = $newData;
     file_put_contents($regdataFilename, json_encode($existingData));
 
-    echo 'Data saved successfully in ' . $githubFilename . ' and regdata.json';
+    echo '
+<script>window.location.href="https://find-developer.bmhm.sbs"</script>';
 } else {
     // Handle missing required fields
     echo 'Error: Required fields are missing.';

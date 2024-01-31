@@ -43,7 +43,7 @@ async function displayData() {
 <br>
 <center>
   
-<a class="abtn" href="${item.website}">View Profile</a>
+<a class="abtn" href="/user/?user=${item.username}">View Profile</a>
 </center>
 
 </div>   
