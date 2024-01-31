@@ -34,6 +34,10 @@ async function displayData() {
     <i class="bi bi-facebook"></i>
     </a>
     
+      <a class="icon" href="${item.website}">
+   <i class="bi bi-globe-americas"></i>
+    </a>
+    
 </div>
 <br>
 <center>
@@ -63,6 +67,6 @@ displayData();
 //
 
 function windocall(){
-  window.location.href="aduser"
+  window.location.href="aduser";
 }
 
