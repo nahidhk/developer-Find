@@ -2,7 +2,7 @@ console.log("hello Word!");
 
 async function displayData() {
     try {
-        const response = await fetch("/php/userdata.json");
+        const response = await fetch("/user/userdata.json");
         const data = await response.json();
         const dataContainer = document.getElementById('data-container');
 
@@ -22,6 +22,7 @@ async function displayData() {
     
   <p class="about">${item.about}</p>
     </center>
+    
 <div class="social-box">
   <a class="icon" href="${item.linkedin}"><i class="bi bi-linkedin"></i></a>
   <a class="icon" href="${item.x}"><i class="bi bi-twitter-x"></i></a>

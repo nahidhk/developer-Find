@@ -138,6 +138,66 @@ border-radius: 5px;
   background-color: #585858;
 }
 n{color: #FF0098}
+input[type="search"]{
+  height: 50px;
+  width: 280px;
+  border: none;
+  outline-color: none;
+  outline: none;
+  background-color: #42445A00;
+  text-align: center;
+  color: #fff;
+}
+.uui{
+  width: 50px;
+  height: 60px;
+ font-size: 24px;
+ background-color: #42445A00;
+  color: white;
+ border: none;
+ cursor: pointer;
+}
+.rx-rote{
+  height: 100%;
+  border:1px solid white;
+  width: 340px;
+  margin: 10px;
+}
+input[type="search"]::placeholder{
+  color: rgba(211, 211, 211, 1)
+}
+.nev{
+  height: 230px;
+  width: 100%;
+  background-image: url('/20240131_181634.png');
+  background-size: cover;
+}
+.ttu{
+  height: 150px;
+  width: 150px;
+  border-radius: 100px;
+  border: 2px solid #4680ff;
+}
+.bk{
+  color: #121212;
+  font-size: 40px;
+}
+.cb{
+  color: #000000;
+}
+.rou{
+  border: 2px solid #4680ff;
+  padding: 8px;
+  width: 70%;
+  border-radius: 10px;
+}
+.bi-cpu{
+  font-size: 20px;
+}
+.lofi-write{
+  height: auto;
+  width: 90%;
+}
 /*====== css mobile design ========*/
 
 
@@ -154,6 +214,11 @@ n{color: #FF0098}
   background-color: #323232;
   border-radius: 0 0 20px 20px;
 } 
- 
+ .nev {
+   height: 200px;
+   width: 100%;
+   background-image: url('/20240131_180524.png');
+   background-size: cover;
+ }
   
 }

@@ -1,0 +1,121 @@
+<!---
+<?php
+if(isset($_GET['user'])) {
+    $user = $_GET['user'];
+    $jsonFilePath = $user . '.json';
+
+    if(file_exists($jsonFilePath)) {
+        $jsonData = file_get_contents($jsonFilePath);
+
+        if($jsonData !== false) {
+            // JSON ডেটা পার্স করুন
+            $decodedData = json_decode($jsonData, true);
+
+            if($decodedData !== null) {
+                // JSON ডেটা সঠিকভাবে ডিকোড হয়েছে
+
+              
+                ?>
+                
+    
+<?php
+            } else {
+
+echo 'not1'; // যদি শর্ত পূর্ণ না হয়, তবে 'not.html' ফাইলটি ইনক্লুড করা হবে
+             
+ // যদি শর্ত পূর্ণ না হয়, তবে 'not.html' ফাইলটি ইনক্লুড করা হবে
+          
+  }
+        } else { 
+echo 'not2'; // যদি শর্ত পূর্ণ না হয়, তবে 'not.html' ফাইলটি ইনক্লুড করা হবে
+       
+        }
+    } else {
+
+      
+          echo 'not3';
+
+    }
+} else {
+
+   echo "not4";
+
+}
+?>
+
+<img src="https://github.com/<?php echo  $decodedData['username']?>.png"/>
+<h1><?php echo  $decodedData['name']?></h1>
+
+--->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+  <link rel="shortcut icon" type="image/x-icon" href="https://github.com/<?php echo  $decodedData['username']?>.png">
+  <link rel="stylesheet" href="/css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title><?php echo  $decodedData['name']?></title>
+</head>
+<body style="background-color: white;">
+  <section class="nev">
+    <center>
+      <br><br>
+        <br><br>
+      <br><br>
+      <br><br>
+    
+    <img class="ttu" src="https://github.com/nahidhk.png" alt="github.api.nahidhk.info/?api"/><br>
+    
+    
+    
+<span class="title bk">Nahid HK</span>    
+   <br>
+   
+   
+     <span class="cb"><i class="bi bi-geo-alt-fill"></i>Ataikula, Bangladesh</span>
+<p class="cb rou"><i class="bi bi-cpu"></i> Web Developer</p>    
+  
+  
+   
+<div class="social-box">
+  <a class="icon" href="${item.linkedin}"><i class="bi bi-linkedin"></i></a>
+  <a class="icon" href="${item.x}"><i class="bi bi-twitter-x"></i></a>
+  
+    <a class="icon" href="https://github.com/${item.username}">
+      <i class="bi bi-github"></i>
+    </a>
+
+    <a class="icon" href="${item.facebook}">
+    <i class="bi bi-facebook"></i>
+    </a>
+    
+      <a class="icon" href="${item.website}">
+   <i class="bi bi-globe-americas"></i>
+    </a>
+    
+</div> 
+
+
+   <p class="lofi-write cb">This is a Example About</p> 
+   <hr> 
+    
+    
+    
+    
+    
+    
+    
+    
+        </center>
+
+  </section>
+ 
+  
+  
+</body>
+</html>
