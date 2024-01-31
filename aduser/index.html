@@ -2,40 +2,76 @@
 <html>
 
 <head>
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="shortcut icon" type="image/x-icon" href="/logo/favicon.png">
+
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>add user</title>
 </head>
 
 <body>
-<form action="/php/developerdata.php" method="post">
-  <label for="username">username</label>
-  <input type="text/submit/hidden/button" name="username" id="username" value="" /><br>
-  <label for="name">name</label>
-  <input type="text/submit/hidden/button" name="name" id="name" value="" /><br>
-  <label for="address">address</label>
-  <input type="text/submit/hidden/button" name="address" id="address" value="" /><br>
-<label for="about">about</label>
-<input type="text/submit/hidden/button" name="about" id="about" value="" /> 
+ 
 <br>
-<label for="skill">skill</label>
-<input type="text/submit/hidden/button" name="skill" id="skill" value="" /><br>
-<label for="facebook">facebook</label>
-<input type="text/submit/hidden/button" name="facebook" id="facebook" value="" /><br>
-<label for="x">x</label>
-<input type="text/submit/hidden/button" name="x" id="x" value="" />
-<br>
-<label for="linkedin">linkedin</label>
-<input type="text/submit/hidden/button" name="linkedin" id="linkedin" value="" />
-<br>
-<label for="website">website</label>
-<input type="text/submit/hidden/button" name="website" id="website" value="" />
-  
-  <button type="submit">
-    Submit 
-  </button>
-  
-</form>
+  <form onsubmit="callmySteoge()" action="/php/developerdata.php" method="post">
+    <div class="element">
+     <blockquote>
+       
+    
+    <label for="username">Github Username<n>*</n> </label>
+    <br>
+    
+   <input placeholder="YourUserName" type="text" name="username" id="username" value="" required/>
+    <br>
+    <label for="name">Full Name <n>*</n></label><br>
+    
+    <input placeholder="Full Name " type="text" name="name" id="fullname" value=""  required/><br>
+    
+    <label for="address">Location And Address<n>*</n></label><br>
+    
+    <input placeholder="New York , United States" type="text" name="address" id="address" value="" required/><br>
+    <label for="about">About<n>*</n></label><br>
+    
+    <input placeholder="Enter Your About" type="text" name="about" id="about" value="" required/>
+    <br>
+    
+    <label for="skill">skill<n>*</n></label><br>
+    
+    <input placeholder="Full Stack Developer" type="text/submit/hidden/button" name="skill" id="skill" value="" required/><br>
+    
+    <label for="facebook">Facebook url<n>*</n></label><br>
+    
+    <input placeholder="https://facebook.com/<id-no-and-name>" type="url" name="facebook" id="facebook" value="" required/><br>
+    
+    <label for="x">Twitter X url<n>*</n></label><br>
+    
+    <input placeholder="https://x.com/username" type="url" name="x" id="x" value="" required/>
+    <br>
+    
+    <label for="linkedin">LinkedIn url<n>*</n></label><br>
+    
+    <input placeholder="https://linkedin.com/in/username" type="url" name="linkedin" id="linkedin" value="" required/>
+    <br>
+    
+    <label for="website">Website/GitHub url<n>*</n></label><br>
+    
+    <input placeholder="https://www.example.com" type="url" name="website" id="website" value="" required/>
+    <br>
+    
+    <button class="log-btn" type="submit">
+      Submit
+    </button>
+         </blockquote> 
+
+    </div>
+
+  </form>
+   
+
+    <!--Tab to edit-->
+    <script src="user.js">
+      
+    </script>
 </body>
 
 </html>

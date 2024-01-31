@@ -62,5 +62,7 @@ displayData();
 //
 //
 
-
+function windocall(){
+  window.location.href="aduser"
+}
 

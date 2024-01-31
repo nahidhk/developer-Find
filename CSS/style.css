@@ -76,6 +76,68 @@ background-image: linear-gradient(700deg,#FC18CC,#4680ff);
   padding-right: 50px;
 border-radius: 5px;
 }
+.nav{
+  right: 0;
+ position: fixed;
+  float: right;
+  height: 100vh;
+  background-color: #323232;
+  border-radius: 0 0 20px 20px;
+}
+.foru img{
+  height: 80px;
+  float: left;
+}
+.foru .mt{
+  font-size: 30px;
+}
+.btn{
+  height: 40px;
+  width: 300px;
+  border-radius: 10px;
+  font-family: site-font;
+  border: 1px dotted #4680ff;
+  background-color: #32323200;
+  color: white;
+  cursor: pointer;
+}
+.element{
+  
+}
+.element input,label ,.log-btn{
+  margin: 5px;
+
+}
+.element input{
+  height: 30px;
+  width: 260px;
+  background-color: #37929D00;
+  border-bottom: 2px solid #4680FF;
+  outline-color: none;
+  outline: none;
+  color: #ffff;
+    border-top: 2px solid #4680FF00;
+    border-left: 2px solid #4680FF00;
+    border-right: 2px solid #4680FF00;
+
+}
+.element input::placeholder{
+  color: white;
+  opacity: 0.5;
+}
+.element input:focus{
+  border-bottom: 2px solid white;
+}
+.log-btn{
+  height: 35px;
+  width: 150px;
+  border: 2px solid #00FF25;
+  border-radius: 7px;
+}
+.log-btn:active{
+  background-color: #585858;
+}
+n{color: #FF0098}
 /*====== css mobile design ========*/
 
 
@@ -84,7 +146,14 @@ border-radius: 5px;
   width: 90%;
   margin: 16px;
 } 
- 
+.nav {
+  right: none;
+  position: relative;
+  float: none;
+  height: 200px;
+  background-color: #323232;
+  border-radius: 0 0 20px 20px;
+} 
  
   
 }
