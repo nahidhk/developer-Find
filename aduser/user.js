@@ -1,5 +1,12 @@
 console.log("hello Word");
 // GitHub user name 
+var bbtn = document.getElementById('hava');
+
+var mongo = document.getElementById("runio");
+
+var montext = "<center><br><h1>You have a Joined!</h1></center>";
+
+
 var username = document.getElementById("username");
 var fullname = document.getElementById("fullname");
 var address = document.getElementById("address");
@@ -39,6 +46,13 @@ function callmySteoge() {
   localStorage.setItem('linkedin', value8);
 
   localStorage.setItem('website', value9);
+  
+ localStorage.setItem('btn','none');
+ 
+ localStorage.setItem('lnc',montext);
+ 
+bbtn.style.display="none";
+
 
 
 }
@@ -55,7 +69,9 @@ function duset() {
   var data8 = localStorage.getItem('linkedin');
   var data9 = localStorage.getItem('website');
 
+var rebtn = localStorage.getItem('btn');
 
+var mantx = localStorage.getItem('lnc');
 // data updone 
 
 
@@ -69,10 +85,15 @@ facebook.value=data6;
 twitter.value=data7;
 linkedin.value=data8;
 web.value=data9;
-
-
-
+bbtn.style.display=rebtn;
+mongo.innerHTML=mantx;
 
 
 
 }
+
+
+
+
+
+
