@@ -33,12 +33,12 @@ echo 'not2';
     } else {
 
       
-          echo 'not3';
+          echo "<script>window.location.href='/cloudnot.js'</script>";
 
     }
 } else {
 
-   echo "not4";
+   echo "<script>window.location.href='/not.js'</script>";
 
 }
 ?>
@@ -51,7 +51,7 @@ echo 'not2';
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
   <link rel="shortcut icon" type="image/x-icon" href="https://github.com/<?php echo  $decodedData['username']?>.png">
-  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/CSS/style.css">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
