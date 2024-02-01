@@ -12,8 +12,8 @@ async function displayData() {
             itemElement.innerHTML = `
   
    
-<div class="box-profile">
-  <img class="profile-img" src="https://github.com/${item.username}.png" alt="Developer Find Powered by Nahid HK"/><br/>
+<div class="box-profile animate__animated animate__flipInX ">
+  <img class="profile-img animate__animated animate__zoomInDown" src="https://github.com/${item.username}.png" alt="Developer Find Powered by Nahid HK"/><br/>
   <span class="title">${item.name}</span><br>
   <span><i class="bi bi-geo-alt-fill"></i>${item.address}</span>
   <br>

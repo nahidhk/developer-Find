@@ -2,7 +2,18 @@
   font-family: site-font;
   src: url(/font/Quicksand-Medium.ttf);
 }
-
+body::-webkit-scrollbar {
+  width: 20px;
+  }
+  
+  body::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px 0 rgba(70, 7, 7, 0.3);
+  }
+  
+  body::-webkit-scrollbar-thumb {
+background-image: linear-gradient(280deg , #4680ff,rgb(225, 0, 255));
+ border-radius: 100px;
+  }
 body{
   color: #EEEEEE;
   margin: 0;
@@ -47,6 +58,11 @@ font-family: site-font;
 box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px; 
   overflow: scroll;
   border-radius: 10px;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+.about::-webkit-scrollbar {
+  display: none;
 }
 .social-box{
   height: 38px;
