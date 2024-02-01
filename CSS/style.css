@@ -158,7 +158,7 @@ input[type="search"]{
  cursor: pointer;
 }
 .rx-rote{
-  height: 100%;
+ height: 51px;
   border:1px solid white;
   width: 340px;
   margin: 10px;
